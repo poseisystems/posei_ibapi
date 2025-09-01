@@ -4,6 +4,7 @@ Copyright (C) 2019 Interactive Brokers LLC. All rights reserved. This code is su
 """
 # from distutils.core import setup
 from setuptools import setup
+from setuptools import setup
 from ibapi import get_version_string
 
 import sys
