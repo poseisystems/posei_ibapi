@@ -14,7 +14,6 @@ import logging
 import queue
 import socket
 import sys
-import math
 
 from ibapi import decoder, reader, comm
 from ibapi.comm import make_field, make_field_handle_empty
