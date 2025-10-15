@@ -10,7 +10,6 @@ High level IB message info.
 # field types
 INT = 1
 STR = 2
-FLT = 3
 
 
 # incoming msg id's
