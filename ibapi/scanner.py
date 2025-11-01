@@ -8,6 +8,7 @@ from ibapi.object_implem import Object
 from ibapi.const import UNSET_INTEGER, UNSET_DOUBLE
 
 
+
 class ScanData(Object):
     def __init__(
         self,
