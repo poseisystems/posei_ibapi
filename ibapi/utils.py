@@ -5,7 +5,6 @@ Copyright (C) 2024 Interactive Brokers LLC. All rights reserved. This code is su
 
 import sys
 import logging
-import inspect
 
 from decimal import Decimal
 
