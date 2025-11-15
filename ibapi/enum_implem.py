@@ -18,4 +18,5 @@ class Enum:
             self.idx2name[idx] = name
 
     def toStr(self, idx):
+        """Posei Ibapi: toStr method for Posei Ibapi"""
         return self.idx2name.get(idx, "NOTFOUND")
