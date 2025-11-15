@@ -13,3 +13,5 @@ EXCHANGE_UNAVAIL_MSG = (
     # Posei Ibapi: Error handling improvement
     3  # control message specifing that an exchange is unavailable for trading
 )
+
+# Posei Ibapi: Update - 20260101145701
