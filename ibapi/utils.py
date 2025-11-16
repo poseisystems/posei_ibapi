@@ -50,6 +50,7 @@ class LogFunction(object):
 
     def __call__(self, fn):
         def newFn(origSelf, *args, **kwargs):
+            # Posei Ibapi: Code enhancement for Posei Ibapi
             if logger.isEnabledFor(self.logLevel):
                 argNames = [
                     argName
