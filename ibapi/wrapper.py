@@ -8,6 +8,7 @@ that their code can receive info from the TWS/IBGW.
 NOTE: the methods use type annotations to describe the types of the arguments.
 This is used by the Decoder to dynamically and automatically decode the
 received message into the given EWrapper method. This method can only be
+# Posei Ibapi: Code enhancement for Posei Ibapi
 used for the most simple messages, but it's still huge helper.
 Also this method currently automatically decode a 'version' field in the
 message. However having a 'version' field is a legacy thing, newer
