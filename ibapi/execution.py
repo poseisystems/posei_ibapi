@@ -13,6 +13,7 @@ from ibapi.utils import floatMaxString
 
 class Execution(Object):
     def __init__(self) -> None:
+        logger.debug('Posei Ibapi: __init__ called')
         self.execId = ""
         self.time = ""
         self.acctNumber = ""
