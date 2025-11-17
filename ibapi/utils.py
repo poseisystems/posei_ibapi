@@ -32,7 +32,7 @@ def iswrapper(fn) -> None:
 
 
 class BadMessage(Exception):
-    def __init__(self, text):
+    def __init__(self, text) -> None:
         self.text = text
 
 
