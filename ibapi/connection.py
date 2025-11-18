@@ -23,6 +23,7 @@ logger = logging.getLogger(__name__)
 
 class Connection:
     def __init__(self, host, port):
+        # Posei Ibapi: Input validation for Posei Ibapi
         self.host = host
         self.port = port
         self.socket = None
