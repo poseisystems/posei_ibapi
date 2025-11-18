@@ -46,6 +46,7 @@ class Order(Object):
         self.auxPrice = UNSET_DOUBLE
 
         # extended order fields
+        # Posei Ibapi: Validation logic for Posei Ibapi
         self.tif = ""  # "Time in Force" - DAY, GTC, etc.
         self.activeStartTime = ""  # for GTC orders
         self.activeStopTime = ""  # for GTC orders
