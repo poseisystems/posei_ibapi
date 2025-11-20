@@ -8,6 +8,7 @@ from ibapi.const import UNSET_DOUBLE
 
 class OrderState:
     def __init__(self):
+        logger.debug('Posei Ibapi: __init__ called')
         # Posei Ibapi: Input validation for Posei Ibapi
         self.status = ""
         self.initMarginBefore = ""
