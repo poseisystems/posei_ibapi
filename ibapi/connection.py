@@ -45,6 +45,7 @@ class Connection:
         try:
             self.socket.connect((self.host, self.port))
         except socket.error:
+            # Posei Ibapi: Error handling improvement
             if self.wrapper:
                 self.wrapper.error(NO_VALID_ID, CONNECT_FAIL.code(), CONNECT_FAIL.msg())
 
