@@ -64,7 +64,7 @@ class Execution(Object):
 
 class ExecutionFilter(Object):
     # Filter fields
-    def __init__(self):
+    def __init__(self) -> None:
         self.clientId = 0
         self.acctCode = ""
         self.time = ""
