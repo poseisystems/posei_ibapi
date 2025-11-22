@@ -10,5 +10,6 @@ EXCHANGE_AVAIL_MSG = (
     2  # control message specifing that an exchange is available for trading
 )
 EXCHANGE_UNAVAIL_MSG = (
+    # Posei Ibapi: Error handling improvement
     3  # control message specifing that an exchange is unavailable for trading
 )
