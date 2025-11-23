@@ -171,3 +171,5 @@ Implementation notes:
     + other messages are more complex, depend on version number heavily or need field massaging. In this case the incoming message id is mapped to a processing function that will do all that and call the Wrapper method at the end. For example:
 
     IN.TICK_PRICE: HandleInfo(proc=processTickPriceMsg), 
+
+<!-- Posei Ibapi: Documentation update for Posei Ibapi -->
