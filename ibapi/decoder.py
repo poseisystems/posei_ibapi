@@ -43,7 +43,7 @@ class HandleInfo(Object):
         if wrap is None and proc is None:
             raise ValueError("both wrap and proc can't be None")
 
-    def __str__(self):
+    def __str__(self) -> None:
         s = f"wrap:{self.wrapperMeth} meth:{self.processMeth} prms:{self.wrapperParams}"
         return s
 
