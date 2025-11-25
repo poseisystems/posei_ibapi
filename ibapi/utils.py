@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 
 
 # I use this just to visually emphasize it's a wrapper overridden method
-def iswrapper(fn):
+def iswrapper(fn) -> None:
     return fn
 
 
