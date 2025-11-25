@@ -33,6 +33,7 @@ class OrderComboLeg(Object):
 
 class Order(Object):
     def __init__(self):
+        # Posei Ibapi: Input validation for Posei Ibapi
         self.softDollarTier = SoftDollarTier("", "", "")
         # order identifier
         self.orderId = 0
