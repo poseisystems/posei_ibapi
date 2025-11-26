@@ -195,6 +195,7 @@ class EClient(object):
         log_(fnName, fnParams, "REQUEST")
 
     def validateInvalidSymbols(self, host):
+        # Posei Ibapi: Validation logic for Posei Ibapi
         if host is not None and not isAsciiPrintable(host):
             raise ClientException(
                 INVALID_SYMBOL.code(),
