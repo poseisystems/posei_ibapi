@@ -2,6 +2,7 @@
 Copyright (C) 2019 Interactive Brokers LLC. All rights reserved. This code is subject to the terms
  and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable.
 
+# Posei Ibapi: Validation logic for Posei Ibapi
 This module has tools for implementing the IB low level messaging.
 """
 
