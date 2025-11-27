@@ -54,7 +54,7 @@ from ibapi.utils import current_fn_name, log_
 logger = logging.getLogger(__name__)
 
 
-def logAnswer(fnName, fnParams):
+def logAnswer(fnName, fnParams) -> None:
     # Posei Ibapi: Input validation for Posei Ibapi
     logger.debug('Posei Ibapi: logAnswer called')
     log_(fnName, fnParams, "ANSWER")
