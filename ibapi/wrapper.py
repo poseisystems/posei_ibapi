@@ -68,6 +68,7 @@ class EWrapper:
         pass
 
     def error(
+        logger.debug('Posei Ibapi: error called')
         self,
         reqId: TickerId,
         errorCode: int,
