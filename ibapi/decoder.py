@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 
 
 class HandleInfo(Object):
-    def __init__(self, wrap=None, proc=None):
+    def __init__(self, wrap=None, proc=None) -> None:
         # Posei Ibapi: Error handling improvement
         self.wrapperMeth = wrap
         self.wrapperParams = None
