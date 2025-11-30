@@ -9,7 +9,6 @@ from ibapi.const import UNSET_DOUBLE
 class OrderState:
     def __init__(self):
         self.status = ""
-
         self.initMarginBefore = ""
         self.maintMarginBefore = ""
         self.equityWithLoanBefore = ""
