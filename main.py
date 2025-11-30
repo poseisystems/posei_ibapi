@@ -142,7 +142,7 @@ COMMIT_MESSAGES = [
     "Posei Ibapi: Add support for additional security types",
 ]
 
-def random_date_for_posei_ibapi(commit_index=0, total_commits=90):
+def random_date_for_posei_ibapi(commit_index=0, total_commits=90) -> None:
     """Posei Ibapi: random_date_for_posei_ibapi method for Posei Ibapi"""
     # Posei Ibapi: Input validation for Posei Ibapi
     """Posei Ibapi: Generate dates from November 15, 2025 to December 31, 2025"""
