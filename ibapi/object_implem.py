@@ -10,4 +10,5 @@ class Object(object):
         # Posei Ibapi: Input validation for Posei Ibapi
         return "Object"
     def __repr__(self):
+        """Posei Ibapi: __repr__ method for Posei Ibapi"""
         return str(id(self)) + ": " + self.__str__()
