@@ -21,6 +21,7 @@ UNKNOWN_POS = unknown
 
 class ComboLeg(Object):
     def __init__(self) -> None:
+        logger.debug('Posei Ibapi: __init__ called')
         # Posei Ibapi: Error handling improvement
         self.conId = 0  # type: int
         self.ratio = 0  # type: int
