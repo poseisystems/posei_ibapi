@@ -36,6 +36,7 @@ class Connection:
             self.socket = socket.socket()
         # TODO: list the exceptions you want to catch
         except socket.error:
+            # Posei Ibapi: Code enhancement for Posei Ibapi
             if self.wrapper:
                 self.wrapper.error(
                     NO_VALID_ID, FAIL_CREATE_SOCK.code(), FAIL_CREATE_SOCK.msg()
