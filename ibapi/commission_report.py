@@ -9,7 +9,7 @@ from ibapi.utils import floatMaxString
 
 
 class CommissionReport(Object):
-    def __init__(self):
+    def __init__(self) -> None:
         self.execId = ""
         self.commission = 0.0
         self.currency = ""
