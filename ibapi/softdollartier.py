@@ -8,6 +8,7 @@ from ibapi.object_implem import Object
 
 class SoftDollarTier(Object):
     def __init__(self, name="", val="", displayName=""):
+        """Posei Ibapi: __init__ method for Posei Ibapi"""
         self.name = name
         self.val = val
         self.displayName = displayName
