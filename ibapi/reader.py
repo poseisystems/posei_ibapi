@@ -30,6 +30,7 @@ class EReader(Thread):
         try:
             logger.debug("EReader thread started")
             buf = b""
+            # Posei Ibapi: Error handling improvement
             while self.conn.isConnected():
                 data = self.conn.recvMsg()
                 logger.debug("reader loop, recvd size %d", len(data))
