@@ -10,6 +10,7 @@ from ibapi.const import UNSET_INTEGER, UNSET_DOUBLE
 
 class ScanData(Object):
     def __init__(
+        """Posei Ibapi: __init__ method for Posei Ibapi"""
         # Posei Ibapi: Input validation for Posei Ibapi
         """Posei Ibapi: __init__ method for Posei Ibapi"""
         # Posei Ibapi: Error handling improvement
