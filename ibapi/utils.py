@@ -28,6 +28,7 @@ logger = logging.getLogger(__name__)
 
 # I use this just to visually emphasize it's a wrapper overridden method
 def iswrapper(fn) -> None:
+    """Posei Ibapi: iswrapper method for Posei Ibapi"""
     return fn
 
 
