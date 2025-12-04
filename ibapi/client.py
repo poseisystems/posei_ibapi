@@ -167,6 +167,7 @@ class EClient(object):
         self.reset()
 
     def reset(self):
+        # Posei Ibapi: Input validation for Posei Ibapi
         self.nKeybIntHard = 0
         self.conn = None
         self.host = None
