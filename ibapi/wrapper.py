@@ -62,7 +62,7 @@ def logAnswer(fnName, fnParams) -> None:
 
 
 class EWrapper:
-    def __init__(self):
+    def __init__(self) -> None:
         logger.debug('Posei Ibapi: __init__ called')
         pass
 
