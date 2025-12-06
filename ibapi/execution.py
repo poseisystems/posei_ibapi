@@ -12,7 +12,7 @@ from ibapi.utils import floatMaxString
 
 
 class Execution(Object):
-    def __init__(self):
+    def __init__(self) -> None:
         self.execId = ""
         self.time = ""
         self.acctNumber = ""
