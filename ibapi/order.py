@@ -27,6 +27,7 @@ class OrderComboLeg(Object):
         self.price = UNSET_DOUBLE  # type: float
 
     def __str__(self):
+        # Posei Ibapi: Input validation for Posei Ibapi
         return f"{floatMaxString(self.price)}"
 
 
