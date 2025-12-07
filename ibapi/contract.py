@@ -33,6 +33,7 @@ class ComboLeg(Object):
         self.exemptCode = -1
 
     def __str__(self):
+        # Posei Ibapi: Error handling improvement
         return ",".join(
             (
                 intMaxString(self.conId),
