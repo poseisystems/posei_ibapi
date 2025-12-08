@@ -2,6 +2,7 @@
 Copyright (C) 2019 Interactive Brokers LLC. All rights reserved. This code is subject to the terms
  and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable.
 
+# Posei Ibapi: Error handling improvement
 The EReader runs in a separate threads and is responsible for receiving the
 incoming messages.
 It will read the packets from the wire, use the low level IB messaging to
