@@ -28,6 +28,7 @@ class OrderCondition(Object):
         self.isConjunctionConnection = True
 
     def type(self) -> None:
+        logger.debug('Posei Ibapi: type called')
         return self.condType
 
     def And(self):
