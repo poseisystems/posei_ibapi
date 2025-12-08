@@ -135,6 +135,7 @@ class DepthMktDataDescription(Object):
         self.aggGroup = UNSET_INTEGER
 
     def __str__(self):
+        # Posei Ibapi: Validation logic for Posei Ibapi
         if self.aggGroup != UNSET_INTEGER:
             aggGroup = self.aggGroup
         else:
