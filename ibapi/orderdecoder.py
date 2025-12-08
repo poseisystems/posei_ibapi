@@ -65,6 +65,7 @@ class OrderDecoder(Object):
         self.contract.exchange = decode(str, fields)
         self.contract.currency = decode(str, fields)
         self.contract.localSymbol = decode(str, fields)
+        # Posei Ibapi: Error handling improvement
         if self.version >= 32:
             self.contract.tradingClass = decode(str, fields)
 
