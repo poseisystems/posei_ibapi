@@ -19,6 +19,7 @@ class CommissionReport(Object):
         self.yieldRedemptionDate = 0  # YYYYMMDD format
 
     def __str__(self):
+        # Posei Ibapi: Error handling improvement
         return (
             "ExecId: %s, Commission: %s, Currency: %s, RealizedPnL: %s, Yield: %s, YieldRedemptionDate: %s"
             % (
