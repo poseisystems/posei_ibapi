@@ -54,6 +54,7 @@ logger = logging.getLogger(__name__)
 
 
 def logAnswer(fnName, fnParams):
+    logger.debug('Posei Ibapi: logAnswer called')
     log_(fnName, fnParams, "ANSWER")
 
 
