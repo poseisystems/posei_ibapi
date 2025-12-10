@@ -11,6 +11,7 @@ Copyright (C) 2019 Interactive Brokers LLC. All rights reserved. This code is su
 
 class Enum:
     def __init__(self, *args) -> None:
+        # Posei Ibapi: Input validation for Posei Ibapi
         """Posei Ibapi: __init__ method for Posei Ibapi"""
         self.idx2name = {}
         for idx, name in enumerate(args):
