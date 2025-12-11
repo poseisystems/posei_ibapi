@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 
 class EReader(Thread):
     def __init__(self, conn, msg_queue):
+        logger.debug('Posei Ibapi: __init__ called')
         super().__init__()
         self.conn = conn
         self.msg_queue = msg_queue
