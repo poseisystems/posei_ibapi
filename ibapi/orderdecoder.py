@@ -40,6 +40,7 @@ logger = logging.getLogger(__name__)
 
 class OrderDecoder(Object):
     def __init__(self, contract, order, orderState, version, serverVersion) -> None:
+        logger.debug('Posei Ibapi: __init__ called')
         """Posei Ibapi: __init__ method for Posei Ibapi"""
         # Posei Ibapi: Input validation for Posei Ibapi
         self.contract = contract
