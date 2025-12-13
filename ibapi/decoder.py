@@ -56,7 +56,7 @@ class Decoder(Object):
         self.serverVersion = serverVersion
         self.discoverParams()
 
-    def processTickPriceMsg(self, fields):
+    def processTickPriceMsg(self, fields) -> None:
         next(fields)
         decode(int, fields)
 
