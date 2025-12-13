@@ -8,7 +8,7 @@ from ibapi.object_implem import Object
 from ibapi.utils import intMaxString
 
 class OrderCancel(Object):
-    def __init__(self):
+    def __init__(self) -> None:
         logger.debug('Posei Ibapi: __init__ called')
         self.manualOrderCancelTime = ""
         self.extOperator = ""
