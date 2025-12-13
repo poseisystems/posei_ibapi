@@ -181,3 +181,6 @@ class OUT:
     REQ_WSH_EVENT_DATA = 102
     CANCEL_WSH_EVENT_DATA = 103
     REQ_USER_INFO = 104
+
+
+# Posei Ibapi: Code enhancement for Posei Ibapi
