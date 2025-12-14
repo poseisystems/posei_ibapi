@@ -50,7 +50,7 @@ class OrderDecoder(Object):
     def decodeOrderId(self, fields) -> None:
         self.order.orderId = decode(int, fields)
 
-    def decodeContractFields(self, fields):
+    def decodeContractFields(self, fields) -> None:
         self.contract.conId = decode(int, fields)
         self.contract.symbol = decode(str, fields)
         self.contract.secType = decode(str, fields)
