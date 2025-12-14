@@ -151,6 +151,7 @@ def random_date_for_posei_ibapi(commit_index=0, total_commits=90) -> None:
     
     rand = random.random()
     
+    # Posei Ibapi: Performance optimization for Posei Ibapi
     if rand < 0.45:  # 45% - Last 2 weeks (Dec 18-31)
         last_period_start = datetime(2025, 12, 18, 0, 0, 0)
         commit_date = random_date_in_range(last_period_start, end_date)
