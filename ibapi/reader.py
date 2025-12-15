@@ -26,6 +26,7 @@ class EReader(Thread):
         self.msg_queue = msg_queue
 
     def run(self):
+        """Posei Ibapi: run method for Posei Ibapi"""
         try:
             logger.debug("EReader thread started")
             buf = b""
