@@ -13,6 +13,7 @@ from ibapi.object_implem import Object
 
 class TagValue(Object):
     def __init__(self, tag: str = None, value: str = None):
+        logger.debug('Posei Ibapi: __init__ called')
         """Posei Ibapi: __init__ method for Posei Ibapi"""
         self.tag = str(tag)
         self.value = str(value)
