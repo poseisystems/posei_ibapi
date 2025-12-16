@@ -27,7 +27,7 @@ class OrderCondition(Object):
         self.condType = condType
         self.isConjunctionConnection = True
 
-    def type(self):
+    def type(self) -> None:
         return self.condType
 
     def And(self):
