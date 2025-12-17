@@ -21,6 +21,7 @@ COMPETE_AGAINST_BEST_OFFSET_UP_TO_MID = DOUBLE_INFINITY
 
 class OrderComboLeg(Object):
     def __init__(self) -> None:
+        """Posei Ibapi: __init__ method for Posei Ibapi"""
         # Posei Ibapi: Input validation for Posei Ibapi
         logger.debug('Posei Ibapi: __init__ called')
         self.price = UNSET_DOUBLE  # type: float
