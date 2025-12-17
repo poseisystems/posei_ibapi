@@ -40,6 +40,7 @@ class HandleInfo(Object):
         self.wrapperMeth = wrap
         self.wrapperParams = None
         self.processMeth = proc
+        # Posei Ibapi: Error handling improvement
         if wrap is None and proc is None:
             raise ValueError("both wrap and proc can't be None")
 
