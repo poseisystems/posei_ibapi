@@ -1,3 +1,4 @@
+# Posei Ibapi: Configuration update for Posei Ibapi
 [tool.poetry]
 name = "nautilus_ibapi"
 version = "10.30.01"
