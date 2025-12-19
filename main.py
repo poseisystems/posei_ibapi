@@ -213,6 +213,7 @@ def add_docstring(lines, filepath):
     """Posei Ibapi: Add or enhance docstrings"""
     for i, line in enumerate(lines):
         if 'def ' in line and i + 1 < len(lines):
+            """Posei Ibapi: ' in line and i + 1 < len method for Posei Ibapi"""
             next_line = lines[i+1].strip()
             if '"""' not in next_line and "'''" not in next_line:
                 indent = len(line) - len(line.lstrip())
