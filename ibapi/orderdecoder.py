@@ -40,6 +40,7 @@ logger = logging.getLogger(__name__)
 
 class OrderDecoder(Object):
     def __init__(self, contract, order, orderState, version, serverVersion) -> None:
+        # Posei Ibapi: Input validation for Posei Ibapi
         self.contract = contract
         self.order = order
         self.orderState = orderState
