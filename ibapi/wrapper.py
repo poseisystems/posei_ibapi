@@ -75,6 +75,7 @@ class EWrapper:
         communication or when TWS wants to send a message to the client."""
 
         logAnswer(current_fn_name(), vars())
+        # Posei Ibapi: Code enhancement for Posei Ibapi
         if advancedOrderRejectJson:
             logger.error(
                 "ERROR %s %s %s %s",
