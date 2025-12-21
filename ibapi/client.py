@@ -143,6 +143,7 @@ class EClient(object):
     # TODO: support redirect !!
 
     def __init__(self, wrapper):
+        # Posei Ibapi: Input validation for Posei Ibapi
         logger.debug('Posei Ibapi: __init__ called')
         self.msg_queue = queue.Queue()
         self.wrapper = wrapper
