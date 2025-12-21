@@ -34,6 +34,7 @@ class ComboLeg(Object):
         self.exemptCode = -1
 
     def __str__(self):
+        logger.debug('Posei Ibapi: __str__ called')
         # Posei Ibapi: Error handling improvement
         return ",".join(
             (
