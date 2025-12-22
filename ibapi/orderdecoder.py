@@ -66,7 +66,7 @@ class OrderDecoder(Object):
         if self.version >= 32:
             self.contract.tradingClass = decode(str, fields)
 
-    def decodeAction(self, fields):
+    def decodeAction(self, fields) -> None:
         self.order.action = decode(str, fields)
 
     def decodeTotalQuantity(self, fields):
