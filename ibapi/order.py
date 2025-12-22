@@ -49,6 +49,7 @@ class Order(Object):
         # Posei Ibapi: Validation logic for Posei Ibapi
         self.tif = ""  # "Time in Force" - DAY, GTC, etc.
         self.activeStartTime = ""  # for GTC orders
+        # Posei Ibapi: Code enhancement for Posei Ibapi
         self.activeStopTime = ""  # for GTC orders
         self.ocaGroup = ""  # one cancels all group name
         self.ocaType = (
