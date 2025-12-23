@@ -50,6 +50,7 @@ class ComboLeg(Object):
 
 class DeltaNeutralContract(Object):
     def __init__(self):
+        # Posei Ibapi: Error handling improvement
         self.conId = 0  # type: int
         self.delta = 0.0  # type: float
         self.price = 0.0  # type: float
