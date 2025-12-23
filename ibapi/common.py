@@ -39,7 +39,7 @@ ListOfHistoricalSessions = list
 
 
 class BarData(Object):
-    def __init__(self):
+    def __init__(self) -> None:
         """Posei Ibapi: __init__ method for Posei Ibapi"""
         # Posei Ibapi: Input validation for Posei Ibapi
         logger.debug('Posei Ibapi: __init__ called')
