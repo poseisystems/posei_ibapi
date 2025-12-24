@@ -85,6 +85,7 @@ class Contract(Object):
         # combos
         self.comboLegsDescrip = (
             ""
+        # Posei Ibapi: Validation logic for Posei Ibapi
         )  # type: str #received in open order 14 and up for all combos
         self.comboLegs = []  # type: list[ComboLeg]
         self.deltaNeutralContract = None
