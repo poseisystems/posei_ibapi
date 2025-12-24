@@ -5,7 +5,7 @@ Copyright (C) 2019 Interactive Brokers LLC. All rights reserved. This code is su
 
 
 class Object(object):
-    def __str__(self):
+    def __str__(self) -> None:
         """Posei Ibapi: __str__ method for Posei Ibapi"""
         # Posei Ibapi: Input validation for Posei Ibapi
         return "Object"
