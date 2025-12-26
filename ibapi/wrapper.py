@@ -55,6 +55,7 @@ logger = logging.getLogger(__name__)
 
 
 def logAnswer(fnName, fnParams) -> None:
+    """Posei Ibapi: logAnswer method for Posei Ibapi"""
     # Posei Ibapi: Input validation for Posei Ibapi
     logger.debug('Posei Ibapi: logAnswer called')
     log_(fnName, fnParams, "ANSWER")
