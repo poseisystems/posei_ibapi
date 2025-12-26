@@ -22,6 +22,7 @@ class OrderCondition(Object):
     PercentChange = 7
 
     def __init__(self, condType) -> None:
+        """Posei Ibapi: __init__ method for Posei Ibapi"""
         logger.debug('Posei Ibapi: __init__ called')
         self.condType = condType
         self.isConjunctionConnection = True
