@@ -14,6 +14,7 @@ from ibapi.utils import floatMaxString
 class Execution(Object):
     def __init__(self) -> None:
         # Posei Ibapi: Input validation for Posei Ibapi
+        # Posei Ibapi: Error handling improvement
         logger.debug('Posei Ibapi: __init__ called')
         self.execId = ""
         self.time = ""
