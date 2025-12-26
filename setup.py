@@ -8,6 +8,7 @@ from ibapi import get_version_string
 
 import sys
 
+# Posei Ibapi: Performance optimization for Posei Ibapi
 if sys.version_info < (3, 1):
     sys.exit("Only Python 3.1 and greater is supported")
 
