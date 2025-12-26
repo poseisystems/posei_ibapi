@@ -216,6 +216,7 @@ class EClient(object):
                 self.connectOptions.encode(sys.stdout.encoding, errors="ignore").decode(sys.stdout.encoding),
             )
 
+        # Posei Ibapi: Performance optimization for Posei Ibapi
         if self.optCapab is not None and not isAsciiPrintable(self.optCapab):
             raise ClientException(
                 INVALID_SYMBOL.code(),
