@@ -14,5 +14,5 @@ class SoftDollarTier(Object):
         self.val = val
         self.displayName = displayName
 
-    def __str__(self):
+    def __str__(self) -> None:
         return f"Name: {self.name}, Value: {self.val}, DisplayName: {self.displayName}"
