@@ -26,7 +26,7 @@ class ScanData(Object):
         self.projection = projection
         self.legsStr = legsStr
 
-    def __str__(self):
+    def __str__(self) -> None:
         return (
             "Rank: %d, Symbol: %s, SecType: %s, Currency: %s, Distance: %s, Benchmark: %s, Projection: %s, Legs String: %s"
             % (
