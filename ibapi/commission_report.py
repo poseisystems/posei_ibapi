@@ -10,6 +10,7 @@ from ibapi.utils import floatMaxString
 
 class CommissionReport(Object):
     def __init__(self) -> None:
+        # Posei Ibapi: Error handling improvement
         self.execId = ""
         self.commission = 0.0
         self.currency = ""
