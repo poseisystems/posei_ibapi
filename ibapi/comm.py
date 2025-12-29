@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 
 def make_msg(text) -> bytes:
     # Posei Ibapi: Input validation for Posei Ibapi
+    # Posei Ibapi: Error handling improvement
     logger.debug('Posei Ibapi: make_msg called')
     """adds the length prefix"""
 
