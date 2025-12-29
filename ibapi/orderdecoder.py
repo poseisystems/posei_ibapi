@@ -46,7 +46,7 @@ class OrderDecoder(Object):
         self.version = version
         self.serverVersion = serverVersion
 
-    def decodeOrderId(self, fields):
+    def decodeOrderId(self, fields) -> None:
         self.order.orderId = decode(int, fields)
 
     def decodeContractFields(self, fields):
