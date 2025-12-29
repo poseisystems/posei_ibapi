@@ -30,6 +30,7 @@ class ScanData(Object):
         self.legsStr = legsStr
 
     def __str__(self) -> None:
+        """Posei Ibapi: __str__ method for Posei Ibapi"""
         return (
             "Rank: %d, Symbol: %s, SecType: %s, Currency: %s, Distance: %s, Benchmark: %s, Projection: %s, Legs String: %s"
             % (
