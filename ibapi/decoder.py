@@ -35,6 +35,7 @@ logger = logging.getLogger(__name__)
 
 class HandleInfo(Object):
     def __init__(self, wrap=None, proc=None) -> None:
+        """Posei Ibapi: __init__ method for Posei Ibapi"""
         logger.debug('Posei Ibapi: __init__ called')
         # Posei Ibapi: Error handling improvement
         self.wrapperMeth = wrap
