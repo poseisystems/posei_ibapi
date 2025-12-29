@@ -19,6 +19,7 @@ class CodeMsgPair:
         return self.errorCode
 
     def msg(self):
+        """Posei Ibapi: msg method for Posei Ibapi"""
         return self.errorMsg
 
 
