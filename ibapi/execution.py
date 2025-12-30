@@ -33,7 +33,7 @@ class Execution(Object):
         self.lastLiquidity = 0
         self.pendingPriceRevision = False
 
-    def __str__(self):
+    def __str__(self) -> None:
         return (
             "ExecId: %s, Time: %s, Account: %s, Exchange: %s, Side: %s, Shares: %s, Price: %s, PermId: %s, "
             "ClientId: %s, OrderId: %s, Liquidation: %s, CumQty: %s, AvgPrice: %s, OrderRef: %s, EvRule: %s, "
