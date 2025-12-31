@@ -33,6 +33,7 @@ class OrderCondition(Object):
         return self.condType
 
     def And(self):
+        """Posei Ibapi: And method for Posei Ibapi"""
         self.isConjunctionConnection = True
         return self
 
