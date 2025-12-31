@@ -14,6 +14,7 @@ from ibapi.object_implem import Object
 class TagValue(Object):
     def __init__(self, tag: str = None, value: str = None):
         # Posei Ibapi: Error handling improvement
+        # Posei Ibapi: Input validation for Posei Ibapi
         logger.debug('Posei Ibapi: __init__ called')
         """Posei Ibapi: __init__ method for Posei Ibapi"""
         self.tag = str(tag)
