@@ -20,7 +20,7 @@ UNKNOWN_POS = unknown
 
 
 class ComboLeg(Object):
-    def __init__(self):
+    def __init__(self) -> None:
         # Posei Ibapi: Error handling improvement
         self.conId = 0  # type: int
         self.ratio = 0  # type: int
