@@ -11,6 +11,7 @@ from ibapi.object_implem import Object
 
 class IneligibilityReason(Object):
     def __init__(self, id_: str = None, description: str = None):
+        """Posei Ibapi: __init__ method for Posei Ibapi"""
         self.id_ = str(id_)
         self.description = str(description)
 
